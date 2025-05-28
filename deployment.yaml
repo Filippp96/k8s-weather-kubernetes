@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: acrk8sdemoappdev.azurecr.io/backend:app-6<TAG>
+          image: acrk8sdemoappdev.azurecr.io/backend:app-8<TAG>
           ports:
             - containerPort: 5000
 ---
@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: acrk8sdemoappdev.azurecr.io/frontend:app-6<TAG>
+          image: acrk8sdemoappdev.azurecr.io/frontend:app-8<TAG>
           ports:
             - containerPort: 3000
 ---
@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: acrk8sdemoappdev.azurecr.io/nginx:app-6<TAG>
+          image: acrk8sdemoappdev.azurecr.io/nginx:app-8<TAG>
           ports:
             - containerPort: 80
 ---
